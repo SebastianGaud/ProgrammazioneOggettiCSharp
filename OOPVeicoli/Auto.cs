@@ -7,10 +7,12 @@ namespace OOPVeicoli
 {
     public class Auto : Veicolo
     {
+        protected int numeroPorte;
+
         public Auto ( string modello , int anno , int colore, int numeroPorte ) 
             : base( modello , anno , colore )
         {
-            NumeroPorte = numeroPorte;
+            this.numeroPorte = numeroPorte;
         }
 
         public int NumeroPorte { get; set; }

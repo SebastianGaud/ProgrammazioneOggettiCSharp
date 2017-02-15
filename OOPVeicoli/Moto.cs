@@ -7,9 +7,11 @@ namespace OOPVeicoli
 {
     public class Moto : Veicolo
     {
+        protected string categoria;
+
         public Moto ( string modello , int anno , int colore, string categoria ) : base( modello , anno , colore )
         {
-            Categoria = categoria;
+            this.categoria = categoria;
         }
 
         public String Categoria { get; set; }

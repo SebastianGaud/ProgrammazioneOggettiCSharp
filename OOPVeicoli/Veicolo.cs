@@ -7,15 +7,19 @@ namespace OOPVeicoli
 {
     public class Veicolo
     {
+        protected int anno;
+        protected int colore;
+        protected string modello;
+
         public String Modello { get; set; }
         public int Anno { get; set; }
         public int Colore { get; set; }
 
         public Veicolo (String modello, int anno, int colore)
         {
-            this.Modello = modello;
-            this.Anno = anno;
-            this.Colore = colore;
+            this.modello = modello;
+            this.anno = anno;
+            this.colore = colore;
         }
     }
 }
