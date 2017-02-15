@@ -21,5 +21,12 @@ namespace OOPVeicoli
             this.anno = anno;
             this.colore = colore;
         }
+
+        public override string ToString ()
+        {
+            return $"Il modello dell'auto : {modello}\n" + 
+                    "Anno di immatricolazione: {anno}\n" +
+                    "Colore: #{colore}";
+        }
     }
 }
