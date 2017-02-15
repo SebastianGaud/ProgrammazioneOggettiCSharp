@@ -10,5 +10,12 @@ namespace OOPVeicoli
         public String Modello { get; set; }
         public int Anno { get; set; }
         public int Colore { get; set; }
+
+        public Veicolo (String modello, int anno, int colore)
+        {
+            this.Modello = modello;
+            this.Anno = anno;
+            this.Colore = colore;
+        }
     }
 }
