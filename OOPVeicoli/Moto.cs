@@ -15,5 +15,10 @@ namespace OOPVeicoli
         }
 
         public String Categoria { get; set; }
+
+        public override string ToString ()
+        {
+            return base.ToString() + $"Categoria: {categoria}";
+        }
     }
 }

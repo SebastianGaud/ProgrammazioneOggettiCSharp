@@ -15,5 +15,10 @@ namespace OOPVeicoli
         }
 
         public int CodTaxi { get; set; }
+
+        public override string ToString ()
+        {
+            return base.ToString() + $"Codice Taxi: {codTaxi}";
+        }
     }
 }

@@ -17,6 +17,9 @@ namespace OOPVeicoli
 
         public int NumeroPorte { get; set; }
 
-
+        public override string ToString ()
+        {
+            return base.ToString() + $"Numero Porte: {numeroPorte}";
+        }
     }
 }
