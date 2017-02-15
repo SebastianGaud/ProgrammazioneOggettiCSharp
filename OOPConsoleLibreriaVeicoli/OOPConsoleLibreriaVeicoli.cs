@@ -11,9 +11,12 @@ namespace OOPConsoleLibreriaVeicoli
     {
         static void Main ( string[] args )
         {
-            Veicolo Trattore = new Veicolo( "Landini" , 0125458 , 1998 );
-            Auto GolfAuto = new Auto( "Golf" , 123458 , 2016, 5 );
-            Taxi Taxi45 = new Taxi( "Prius" , 454654 , 2012 , 789 );
+            Veicolo Trattore = new Veicolo( "Landini" , 1998 , 123456789 );
+            Auto GolfAuto = new Auto( "Golf" , 2016 , 0123456, 5 );
+            Taxi Taxi45 = new Taxi( "Prius" , 2012 , 0123456789 , 789 );
+
+            Console.WriteLine(Trattore.ToString());
+            
         }
     }
 }

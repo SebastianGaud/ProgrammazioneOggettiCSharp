@@ -24,9 +24,9 @@ namespace OOPVeicoli
 
         public override string ToString ()
         {
-            return $"Il modello dell'auto : {modello}\n" + 
-                    "Anno di immatricolazione: {anno}\n" +
-                    "Colore: #{colore}";
+            return $"Il modello : {modello} \n" + 
+                   $"Anno di immatricolazione: {anno}\n" +
+                   $"Colore: #{colore}";
         }
     }
 }
