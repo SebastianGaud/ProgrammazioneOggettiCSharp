@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPVeicoli", "OOPVeicoli\OO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConsoleLibreriaVeicoli", "OOPConsoleLibreriaVeicoli\OOPConsoleLibreriaVeicoli.csproj", "{F1E52EA6-2703-4C3C-8886-6A1E768F23DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPVeicoliProject", "OOPVeicoliProject", "{1E3A6A3B-46B1-4B51-AE2D-FAB6C413B2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPPErsonaProject", "OOPPErsonaProject", "{B5FDBAD3-5918-47F7-95E1-B970ABDEB2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPersona", "OOPPersona\OOPPersona.csproj", "{2298C110-33F5-4C80-B406-B06656C04481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,17 @@ Global
 		{F1E52EA6-2703-4C3C-8886-6A1E768F23DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E52EA6-2703-4C3C-8886-6A1E768F23DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E52EA6-2703-4C3C-8886-6A1E768F23DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2298C110-33F5-4C80-B406-B06656C04481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2298C110-33F5-4C80-B406-B06656C04481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2298C110-33F5-4C80-B406-B06656C04481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2298C110-33F5-4C80-B406-B06656C04481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8171C68-7A70-4AB5-9706-6C12F6B2F145} = {1E3A6A3B-46B1-4B51-AE2D-FAB6C413B2A2}
+		{F1E52EA6-2703-4C3C-8886-6A1E768F23DD} = {1E3A6A3B-46B1-4B51-AE2D-FAB6C413B2A2}
+		{2298C110-33F5-4C80-B406-B06656C04481} = {B5FDBAD3-5918-47F7-95E1-B970ABDEB2A6}
 	EndGlobalSection
 EndGlobal

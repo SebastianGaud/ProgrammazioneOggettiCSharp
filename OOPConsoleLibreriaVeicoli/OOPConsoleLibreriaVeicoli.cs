@@ -21,7 +21,6 @@ namespace OOPConsoleLibreriaVeicoli
                 $"Taxi: {Taxi45.ToString()}\n\n"+
                 $"Moto: {Ducati.ToString()}"
                 );
-            
         }
     }
 }
