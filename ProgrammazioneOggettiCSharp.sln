@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPVeicoliProject", "OOPVei
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPPErsonaProject", "OOPPErsonaProject", "{B5FDBAD3-5918-47F7-95E1-B970ABDEB2A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPersona", "OOPPersona\OOPPersona.csproj", "{2298C110-33F5-4C80-B406-B06656C04481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPersonaStatico", "OOPPersona\OOPPersonaStatico.csproj", "{2298C110-33F5-4C80-B406-B06656C04481}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
